@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    },
+    "logLevel": {
+      "Default": "Information",
+      "DrDocumentSync": "Information",
+      "Host.Results": "Warning",
+      "Host.Aggregator": "Warning"
+    }
+  }
+}
